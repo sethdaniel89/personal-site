@@ -10,7 +10,189 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/#firstPage">The Still Life</a>
+      </div> -->
+      <div class="collapse navbar-collapse" id="main-nav-collapse">
+        <ul class="nav navbar-nav">
+          <!-- <li class="hidden-sm hidden-md hidden-lg">
+            <a href="#toTop">Back To Top <span class="glyphicon glyphicon-hand-up"></span></a>
+          </li> -->
+          <li><a href="/#firstPage" class="btn">The Still Life</a></li>
+          <li>
+            <div class="dropdown dropdown-accordion" data-accordion="#accordion">
+              <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">Practices <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li>
+                  <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h5 class="panel-title">
+                          <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">Chant</a>
+                        </h5>
+                      </div>
 
+                      <div class="panel-collapse collapse" id="collapseOne">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="/#secondPage/">Om</a></li>
+                          <li class="list-group-item"><a href="/#secondPage/1">Shema Yisrael! Yhwh Eloheinu, Yhwh Echad</a></li>
+                          <li class="list-group-item"><a href="/#secondPage/2">La Illaha Illallah</a></li>
+                          <li class="list-group-item"><a href="/#secondPage/3">Om Namah Shivaya</a></li>
+                          <li class="list-group-item"><a href="/#secondPage/4">Om Mani Padme Hum</a></li>
+                          <li class="list-group-item"><a href="/#secondPage/5">Sanctus, Sanctus, Sanctus, Dominus Deus Sabaoth</a></li>
+                          <li class="list-group-item"><a href="/#secondPage/6">Gate, Gate, Para Gate, Parasamgate, Bodhi Svaha</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- //Close Panel One -->
+                    <!-- Open Panel Two -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h5 class="panel-title">
+                          <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">Body
+                          </a>
+                        </h5>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseTwo">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="/#thirdPage/">Yoga Asana - Studio</a></li>
+                          <li class="list-group-item"><a href="/#thirdPage/1">Yoga Asana - Self Study</a></li>
+                          <li class="list-group-item"><a href="/#thirdPage/2">QiGong - Studio</a></li>
+                          <li class="list-group-item"><a href="/#thirdPage/3">QiGong - Self Study</a></li>
+                          <li class="list-group-item"><a href="/#thirdPage/4">Traditional Aerobic Exercise</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- //Close Panel Two -->
+                    <!-- Open Panel Three -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h5 class="panel-title">
+                          <a href="#collapseThree" data-toggle="collapse" data-parent="#accordion">Seated
+                          </a>
+                        </h5>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseThree">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="/#fourthPage/">Stillness/Source</a></li>
+                          <li class="list-group-item"><a href="/#fourthPage/1">Breath Control</a></li>
+                          <li class="list-group-item"><a href="/#fourthPage/2">Devotional Visualization</a></li>
+                          <li class="list-group-item"><a href="/#fourthPage/3">Abstract Visualization Pt. I</a></li>
+                          <li class="list-group-item"><a href="/#fourthPage/4">Abstract Visualization Pt. II</a></li>
+                          <li class="list-group-item"><a href="/#fourthPage/5">Silent Chanting</a></li>
+                          <li class="list-group-item"><a href="/#fourthPage/6">Guided Audio</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- //Close Panel Three -->
+                    <!-- Open Panel Four -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h5 class="panel-title">
+                          <a href="#collapseFour" data-toggle="collapse" data-parent="#accordion">Service
+                          </a>
+                        </h5>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseFour">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="/#fifthPage/">Food</a></li>
+                          <li class="list-group-item"><a href="/#fifthPage/1">Companionship</a></li>
+                          <li class="list-group-item"><a href="/#fifthPage/2">Assistance</a></li>
+                          <li class="list-group-item"><a href="/#fifthPage/3">Environmental Care</a></li>
+                          <li class="list-group-item"><a href="/#fifthPage/4">Animals</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="dropdown dropdown-accordion" data-accordion="#accordion1">
+            <a class="btn dropdown-toggle" href="#" data-toggle="dropdown">Guidelines <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li>
+                  <div class="panel-group" id="accordion1">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h5 class="panel-title">
+                          <a href="#collapseFive" data-toggle="collapse" data-parent="#accordion1">Meditation</a>
+                        </h5>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseFive">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="/#sixthPage/">General</a></li>
+                          <li class="list-group-item"><a href="/#sixthPage/1">During Practice</a></li>
+                          <li class="list-group-item"><a href="/#sixthPage/2">Tips Pt. I</a></li>
+                          <li class="list-group-item"><a href="/#sixthPage/3">Tips  Pt. II</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- //Close Panel Five -->
+                    <!-- Open Panel Six -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h5 class="panel-title">
+                          <a href="#collapseSix" data-toggle="collapse" data-parent="#accordion1">Lifestyle</a>
+                        </h5>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseSix">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="/#seventhPage/">Lifestyle Pt. I</a></li>
+                          <li class="list-group-item"><a href="/#seventhPage/1">Lifestyle Pt. II</a></li>
+                          <li class="list-group-item"><a href="/#seventhPage/2">Lifestyle Pt. III</a></li>
+                          <li class="list-group-item"><a href="/#seventhPage/3">Lifestyle Pt. IV</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- //Close Panel Six -->
+                    <!-- Open Panel Seven -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h5 class="panel-title">
+                          <a href="#collapseSeven" data-toggle="collapse" data-parent="#accordion1">Getting Started</a>
+                        </h5>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseSeven">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="/#eighthPage/">Getting Started Pt. I</a></li>
+                          <li class="list-group-item"><a href="/#eighthPage/1">Getting Started Pt. II</a></li>
+                          <li class="list-group-item"><a href="/#eighthPage/2">Getting Started Pt. III</a></li>
+                          <li class="list-group-item"><a href="/#eighthPage/3">Getting Started Pt. IV</a></li>
+                          <li class="list-group-item"><a href="/#eighthPage/4">Getting Started Pt. V</a></li>
+                          <!-- <li class="list-group-item"><a href="/#eighthPage/5">Getting Started Pt. VI</a></li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- //Close Panel Seven -->
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          
+
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<% flash.each do |message_type, message| %>
+<div class="alert alert-<%= message_type %>"><%= message %></div>
+<% end %>
 <%= yield %>
 
 </body>
