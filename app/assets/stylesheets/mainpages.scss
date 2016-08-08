@@ -39,15 +39,29 @@
 }
 
 #homepage {
-	background-image: url("birds_sunset.jpg");
+	background-image: url("mountain_lookout.jpg");
 	background-size: contain;
 	background-attachment: fixed;
 	background-size: cover;
-	
+}
+
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	background-image: url("jacket.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center
 }
 
 #pagetwo-one, #pagetwo-two, #pagetwo-three, #pagetwo-four {
-	background-image: url("perfect_crash.jpg");
+	background-image: url("mountain_lookout.jpg");
 	background-size: contain;
 	background-attachment: fixed;
 	background-size: cover;

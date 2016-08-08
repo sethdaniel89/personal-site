@@ -15,6 +15,7 @@ gem 'paperclip', '~> 4.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'pg_search'
+gem 'materialize-sass'
 gem 'bootstrap-sass'
 gem 'bootstrap_form'
 gem 'font-awesome-sass', '~> 4.5.0'
