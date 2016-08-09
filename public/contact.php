@@ -1,9 +1,9 @@
 <?php
 
 // configure
-$from = 'Demo contact form <demo@domain.com>';
-$sendTo = 'Demo contact form <demo@domain.com>';
-$subject = 'New message from contact form';
+$from = 'seth.daniel.goldman@gmail.com';
+$sendTo = 'seth.daniel.goldman@gmail.com';
+$subject = 'New message';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
@@ -40,3 +40,5 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
+
+?>
