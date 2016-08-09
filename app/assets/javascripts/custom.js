@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         //sectionsColor: ['#1bbc9b', '#4BBFC3', '#9683ec', '#4BBFC3', '#5bad9f'],
-        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
         menu: '#menu',
         lockAnchors: false,
         navigation: false,
