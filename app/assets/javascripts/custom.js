@@ -1,8 +1,18 @@
 
 
 $(document).ready(function() {
-      $('#fullpage').fullpage({
-        sectionsColor: ['#1bbc9b', '#4BBFC3', '#9683ec', '#4BBFC3', '#5bad9f'],
+
+    // $(".navbar-nav > li").on("click", function(e) {
+    //     // debugger;
+    //     e.preventDefault();
+    //     $(".navbar-nav > li").removeClass('active');
+    //     var target = e.target;
+    //     $(target.parentElement).addClass('active');
+    // })
+
+
+    $('#fullpage').fullpage({
+        //sectionsColor: ['#1bbc9b', '#4BBFC3', '#9683ec', '#4BBFC3', '#5bad9f'],
         anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
         menu: '#menu',
         lockAnchors: false,
@@ -69,7 +79,7 @@ $(document).ready(function() {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 
-      });
+    });
 
         // Collapse accordion every time dropdown is shown
     $('.dropdown-accordion').on('show.bs.dropdown', function (event) {
