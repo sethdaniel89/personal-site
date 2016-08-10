@@ -65,13 +65,16 @@
 	background-size: contain;
 	background-attachment: fixed;
 	background-size: cover;
-	
 }
 
 .pagetwo-style {
 	background-color: rgba(51, 51, 51, 0.25);
   	width: 65%;
   	border: 2px solid #fffafa; 
+}
+
+.hidden {
+    display: none;
 }
 
 #pagethree {
@@ -96,6 +99,14 @@
 
 .col-xs-6 .col-md-4 {
 	text-align: center;
+	align-content: center;
+}
+
+.card {
+	background: white;
+	border: 2px solid black;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 #devbootcamp {
@@ -104,6 +115,7 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100px;
+	text-align: center;
 }
 
 #dev_text {
@@ -117,7 +129,7 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100px;
-	
+	text-align: center;
 }
 
 #skyline_text {
@@ -131,6 +143,7 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100px;
+	text-align: center;
 }
 
 #ama_text {
