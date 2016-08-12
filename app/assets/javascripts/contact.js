@@ -1,11 +1,11 @@
 $(function () {
 
-    // $('#contact-form').validator();
+    $('#contact-form').validator();
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
-
+            var url = $(this).attr('action');
+            
             $.ajax({
                 type: "POST",
                 url: url,

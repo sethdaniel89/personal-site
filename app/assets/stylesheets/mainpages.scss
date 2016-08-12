@@ -45,6 +45,10 @@
 	background-size: cover;
 }
 
+.description {
+	width: 65%;
+}
+
 .circular {
 	width: 150px;
 	height: 150px;
@@ -57,7 +61,7 @@
 	background-image: url("jacket.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
-    align-content: center
+    align-content: center;
 }
 
 #pagetwo-one, #pagetwo-two, #pagetwo-three, #pagetwo-four {
@@ -76,6 +80,112 @@
 .col-xs-12 .col-md-12 {
 	text-align: center;
 	align-content: center;
+}
+
+.samplify1 {
+	width: 300px;
+	height: 200px;
+	background-image: url("samplify1.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.samplify2 {
+	width: 300px;
+	height: 200px;
+	background-image: url("samplify2.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.samplify3 {
+	width: 300px;
+	height: 200px;
+	background-image: url("samplify3.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stilllife1 {
+	width: 300px;
+	height: 200px;
+	background-image: url("stilllife1.png");
+	background-repeat: no-repeat;
+	background-attachment: center;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stilllife2 {
+	width: 300px;
+	height: 200px;
+	background-image: url("stilllife3.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stilllife3 {
+	width: 300px;
+	height: 200px;
+	background-image: url("stilllife4.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.source1 {
+	width: 300px;
+	height: 200px;
+	background-image: url("sourceipe1.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.source2 {
+	width: 300px;
+	height: 200px;
+	background-image: url("sourceipe3.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.source3 {
+	width: 300px;
+	height: 200px;
+	background-image: url("sourceipe4.png");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center-text {
+	width: 75%;
+	background-color: rgba(250, 250, 250, 0.5);
 }
 
 .hidden {
@@ -108,12 +218,11 @@
 }
 
 .card {
-	background: white;
+	background-color: rgba(250, 250, 250, 0.5);
 	border: 2px solid black;
-	border-radius: 25px;
+	border-radius: 10px;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	//margin: 0 0.25% 0 0.25%;
 }
 
 #devbootcamp {
@@ -164,11 +273,6 @@
 	background-attachment: fixed;
 	background-size: cover;
 }	
-
-.resume {
-	width: 59%;
-	height: 82.5%;
-}
 
 .pagefour-style {
 	background-color: rgba(255, 250, 250, 0.65);
