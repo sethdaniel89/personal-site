@@ -119,7 +119,9 @@ body {
   }
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    //background-color: #eeeeee;
+    
+    background: transparent;
+    background-color: #eeeeee;
     border-color: #337ab7;
 }
 
