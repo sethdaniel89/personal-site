@@ -59,6 +59,7 @@
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	background-image: url("jacket.jpg");
+	//background-position:center;
 	background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
@@ -83,7 +84,7 @@
 }
 
 .samplify1 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("samplify1.png");
 	background-repeat: no-repeat;
@@ -91,10 +92,11 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .samplify2 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("samplify2.png");
 	background-repeat: no-repeat;
@@ -102,10 +104,11 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .samplify3 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("samplify3.png");
 	background-repeat: no-repeat;
@@ -113,10 +116,11 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .stilllife1 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("stilllife1.png");
 	background-repeat: no-repeat;
@@ -126,10 +130,11 @@
     align-content: center;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .stilllife2 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("stilllife3.png");
 	background-repeat: no-repeat;
@@ -137,10 +142,11 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .stilllife3 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("stilllife4.png");
 	background-repeat: no-repeat;
@@ -148,10 +154,11 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .source1 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("sourceipe1.png");
 	background-repeat: no-repeat;
@@ -159,10 +166,11 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .source2 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("sourceipe3.png");
 	background-repeat: no-repeat;
@@ -170,10 +178,11 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .source3 {
-	width: 300px;
+	width: 350px;
 	height: 200px;
 	background-image: url("sourceipe4.png");
 	background-repeat: no-repeat;
@@ -181,6 +190,7 @@
     background-size: cover;
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position:center;
 }
 
 .center-text {
@@ -287,3 +297,7 @@
 	background-size: cover;
 }
 
+.resume {
+	height: 75%;
+	
+}
