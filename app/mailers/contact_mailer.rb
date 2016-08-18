@@ -5,6 +5,7 @@ class ContactMailer < ApplicationMailer
   #
   #   en.contact_mailer.contact_me.subject
   #
+  layout 'contact_me'
 
   def contact_me(email)
     @email_info = email
