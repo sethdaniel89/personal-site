@@ -11,10 +11,11 @@ class MainpagesController < ApplicationController
 
 			if @email.save
 				@email.send_contact_email
-				flash[:success] = "Thank you for your email, I'll be in contact with you shortly."
+				# flash[:success] = "Thank you for your email, I'll be in contact with you shortly."
 				redirect_to root_url
 			else
-				flash[:danger] = "Looks like something went wrong. Whoops, well that sucks. :("
+				# flash[:danger] = "Looks like something went wrong. Whoops, well that sucks. :("
+				render "index"
 			end
 		# end
 	end

@@ -7,7 +7,7 @@ class ContactMailer < ApplicationMailer
   #
 
   def contact_me(email)
-    @email = email
+    @email_info = email
     mail to: 'seth.daniel.goldman@gmail.com', subject: "Recent Contact Notification from Your Website"
   end
 end
