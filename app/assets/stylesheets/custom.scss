@@ -118,12 +118,6 @@ body {
     }
   }
 
-//.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-//    background: transparent;
-//    background-color: #eeeeee;
-//    border-color: #337ab7;
-//}
-
   // Selects the main dropdown element
   .dropdown-menu {
     padding: 0px;
@@ -241,4 +235,10 @@ section:first-of-type {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background: transparent;
+  background-color: none;
+  border-color: #337ab7;
 }
